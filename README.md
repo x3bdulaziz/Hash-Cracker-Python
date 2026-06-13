@@ -56,7 +56,7 @@ Mode: -d | Algorithm: SHA1
 [+]Password Found: `123456789`
 finished in 0.42seconds. 
 ```
-** Wordlist Preparation:
+## Wordlist Preparation:
 To keep the repository lightweight and portable, this tool does not include large wordlists. Users are expected to provide their own wordlist.
 
 `Tip` for Kali Linux users: You can typically find a pre-installed wordlist at:`/usr/share/wordlists/rockyou.txt`
