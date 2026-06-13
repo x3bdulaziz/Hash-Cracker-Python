@@ -1,5 +1,6 @@
 # crackx3
 A lightweight, high-performance Python hash cracker featuring automatic hash type detection and multi-algorithm brute-force support.
+![crackx3-demo](result.png)
 
 ## About crackx3
 **crackx3** is an efficient CLI tool designed for security professionals and enthusiasts to crack cryptographic hashes. It utilizes `multiprocessing` to maximize CPU usage, ensuring fast and reliable performance during dictionary attacks.
