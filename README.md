@@ -44,6 +44,7 @@ You can run the tool as follows:
 ```bash
 python3 crackx3.py -d -hash f7c3bc1d808e04732adf679965ccc34ca7ae3441 -w /usr/share/wordlists/rockyou.txt
 ```
+## output
 ```bash
 ==========================================
 Welcome to crackx3 Tool
