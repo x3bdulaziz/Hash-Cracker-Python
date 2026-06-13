@@ -19,7 +19,7 @@ A lightweight, high-performance Python hash cracker featuring automatic hash typ
 ### Installation
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/x3bdulaziz/Crackx3.git](https://github.com/x3bdulaziz/Crackx3.git)
+git clone https://github.com/x3bdulaziz/Crackx3.git
 cd Crackx3
 ```
 Wordlist Preparation:
