@@ -21,21 +21,37 @@ A lightweight, high-performance Python hash cracker featuring automatic hash typ
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/x3bdulaziz/Crackx3.git
+```
 ```bash 
 cd Crackx3
 ```
 ## 💻 Usage & Options
 ```bash
-python3 crackx3.py --help>
+python3 crackx3.py --help
 
 -h, --help  show this help message and exit
   -hash HASH  target hash
   -w W        Wordlist path
   -d          Detect Mode
   -b          Brute-force Mode
-python3 crackx3.py -d -hash xws1r5... -w /usr/share/wordlists/rockyou.txt
-python3 crackx3.py -b -hash qef9o4... -w rockyou.txt
+example:
+    python3 crackx3.py -d -hash xws1r5... -w /usr/share/wordlists/rockyou.txt
+    python3 crackx3.py -b -hash qef9o4... -w rockyou.txt
 ```
+```bash
+python3 crackx3.py -d -hash f7c3bc1d808e04732adf679965ccc34ca7ae3441 -w /usr/share/wordlists/rockyou.txt
+```
+***
+==========================================
+Welcome to crackx3 Tool
+Created by x3bdulaziz
+Starting crack... target: f7c3bc1d808e04732adf679965ccc34ca7ae3441
+Mode: -d | Algorithm: SHA1
+==========================================
+
+[+]Password Found: `123456789`
+finished in 0.42seconds. 
+***
 ##Wordlist Preparation:
 To keep the repository lightweight and portable, this tool does not include large wordlists. Users are expected to provide their own wordlist.
 
