@@ -41,7 +41,7 @@ example:
 ```bash
 python3 crackx3.py -d -hash f7c3bc1d808e04732adf679965ccc34ca7ae3441 -w /usr/share/wordlists/rockyou.txt
 ```
-***
+```bash
 ==========================================
 Welcome to crackx3 Tool
 Created by x3bdulaziz
@@ -51,7 +51,7 @@ Mode: -d | Algorithm: SHA1
 
 [+]Password Found: `123456789`
 finished in 0.42seconds. 
-***
+```
 ##Wordlist Preparation:
 To keep the repository lightweight and portable, this tool does not include large wordlists. Users are expected to provide their own wordlist.
 
